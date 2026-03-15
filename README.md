@@ -4,7 +4,7 @@ Página académica multilingüe (Euskera · English · Castellano) construida co
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 cv-academico/
@@ -19,7 +19,7 @@ cv-academico/
 
 ---
 
-## 🛠️ Instalación y uso local
+## Instalación y uso local
 
 ### 1. Requisitos
 
@@ -64,9 +64,7 @@ Genera la carpeta `docs/` con el HTML listo para publicar.
 
 ---
 
-## 🚀 Publicar en GitHub Pages
-
-### Opción A — GitHub Actions (recomendado)
+## Publicar en GitHub Pages
 
 1. Crea un repositorio en GitHub (p.ej. `tu-usuario.github.io` o `cv-academico`)
 2. Sube todos los archivos:
@@ -83,17 +81,9 @@ Genera la carpeta `docs/` con el HTML listo para publicar.
    - Branch: `main` / folder: `/docs`
 4. ¡Listo! Tu CV estará en `https://tu-usuario.github.io/cv-academico`
 
-### Opción B — Quarto Publish (más sencillo)
-
-```bash
-quarto publish gh-pages
-```
-
-Quarto crea automáticamente la rama `gh-pages` y publica el sitio.
-
 ---
 
-## ✏️ Personalización
+## Personalización
 
 ### Cambiar datos personales
 
@@ -101,8 +91,8 @@ Edita `index.qmd` y reemplaza:
 
 | Placeholder | Tu dato real |
 |---|---|
-| `Ane Martínez Etxeberria` | Tu nombre completo |
-| `ane.martinez@ehu.eus` | Tu email |
+| `Ainhoa Vega-Bayo` | Tu nombre completo |
+| `ainhoa.vega@ehu.eus` | Tu email |
 | `0000-0000-0000-0000` | Tu ORCID |
 | `ane-martinez` | Tu usuario GitHub |
 | Las entradas de hezkuntza/educación | Tu formación real |
@@ -116,25 +106,10 @@ Edita `index.qmd` y reemplaza:
    <img src="assets/foto.jpg" alt="Foto" class="avatar">
    ```
 
-### Añadir más secciones
-
-Copia el bloque de una sección existente (p.ej. "Proyectos") y adáptalo. Recuerda añadirlo en los **tres bloques de idioma** (`block-eu`, `block-en`, `block-es`).
-
-### Cambiar colores
-
-En `styles.css`, modifica las variables CSS:
-```css
-:root {
-  --accent:   #7c3b28;   /* Color principal (granate) */
-  --accent-2: #3b5c7c;   /* Color secundario (azul pizarra) */
-  --paper:    #f7f5f0;   /* Fondo de página */
-  --ink:      #1a1a18;   /* Color del texto */
-}
-```
 
 ---
 
-## 🌐 Idiomas
+## Idiomas
 
 El cambio de idioma es instantáneo (JavaScript puro, sin recarga).  
 El sitio recuerda el idioma elegido entre visitas (localStorage).  
