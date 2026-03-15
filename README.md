@@ -94,7 +94,7 @@ Edita `index.qmd` y reemplaza:
 | `Ainhoa Vega-Bayo` | Tu nombre completo |
 | `ainhoa.vega@ehu.eus` | Tu email |
 | `0000-0000-0000-0000` | Tu ORCID |
-| `ane-martinez` | Tu usuario GitHub |
+| `ainhoavega` | Tu usuario GitHub |
 | Las entradas de hezkuntza/educación | Tu formación real |
 | Las publicaciones | Tus artículos reales |
 
@@ -113,7 +113,7 @@ Edita `index.qmd` y reemplaza:
 
 El cambio de idioma es instantáneo (JavaScript puro, sin recarga).  
 El sitio recuerda el idioma elegido entre visitas (localStorage).  
-Por defecto carga en **euskera**.
+Por defecto carga en **inglés**.
 
 ---
 
