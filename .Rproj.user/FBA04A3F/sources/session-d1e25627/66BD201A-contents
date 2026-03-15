@@ -1,0 +1,370 @@
+# ══════════════════════════════════════════════════════
+#  _cv_data.yml  —  Edita SOLO este archivo para actualizar el CV
+#  Formato: para cada campo con traducción usa eu / en / es
+# ══════════════════════════════════════════════════════
+
+# ── Datos personales ───────────────────────────────────
+name: "Ainhoa Vega-Bayo"
+initials: "AVB"
+email: "ainhoa.vega@ehu.eus"
+orcid_url: "https://orcid.org/0000-0002-3605-556X"
+#website_url: "https://iseak.eu"
+#website_label: "iseak.eu"
+scholar_url: "https://scholar.google.com/citations?user=VVAfg5AAAAAJ&hl=en&authuser=1"
+photo: "assets/foto.jpg"   # ruta a foto, p.ej. "assets/foto.jpg". Dejar vacío para usar iniciales.
+
+subtitle:
+  eu: "Ekonomiako Irakasle Agregatua · Ekonomia eta Enpresa Fakultatea · EHU · Bilbao, Bizkaia"
+  en: "Associate Professor of Economics · University of the Basque Country, UPV/EHU · Bilbao, Bizkaia"
+  es: "Profesora Agregada · Facultad de Economía y Empresa · UPV/EHU · Bilbao, Bizkaia"
+
+role:
+  eu: "Irakasle Agregatua\nEkonomia eta Enpresa Fakultatea\nEHU"
+  en: "Associate Professor of Economics\nUPV/EHU"
+  es: "Profesora Agregada\nFacultad de Economía y Empresa\nUPV/EHU"
+
+# ── Perfil ─────────────────────────────────────────────
+profile:
+  eu:
+    - "Ainhoa Vega-Bayo Ekonomiako Irakasle Agregatua da UPV/EHUko Analisi Ekonomikoko Sailean.
+    Bere ikerketa programa-ebaluazioaren metodoetan, eskola-aukeran eta lan-merkatuko desberdintasunean oinarritzen da,
+    politika publikoen eraginkortasuna tresna ekonometriko zorrotzen bidez aztertzen duelarik."
+    - "[Master in Economics: Empirical Applications and Policies](https://www.ehu.eus/eu/web/master/master-ekonomia-enpirikoa)
+    programaren zuzendaria da, baita [ISEAK Fundazioaren](https://iseak.eu) ikertzaile elkartua eta UPV/EHUko
+    [Giza Subjektuekin Ikerketa eta Etikaren Batzordeko](https://www.ehu.eus/eu/web/ikerketa/etika-batzordea) kidea."
+  en:
+    - "Ainhoa Vega-Bayo is an Associate Professor of Economics at the University of the Basque Country, UPV/EHU.
+    Her research focuses on program evaluation methods and DCEs applied to a range of topics such as education,
+    labor market, and poverty."
+    - "She is the Director of the [Master in Economics: Empirical Applications and Policies](https://www.ehu.eus/en/web/master/master-ekonomia-enpirikoa),
+    research associate at [ISEAK Foundation](https://iseak.eu), and member of the [Ethics Committee](https://www.ehu.eus/en/web/ikerketa/etika-batzordea) at the UPV/EHU."
+  es:
+    - "Ainhoa Vega-Bayo es Profesora Agregada en la Facultad de Economía y Empresa en la Universidad del País Vasco, UPV/EHU.
+    Su investigación se centra en métodos de evaluación de programas y de elección discreta aplicados a diferentes temas como
+    educación, mercado laboral, y pobreza."
+    - "Es responsable del [Master in Economics: Empirical Applications and Policies](https://www.ehu.eus/es/web/master/master-ekonomia-enpirikoa)
+    , investigadora asociada en la [Fundación ISEAK](https://iseak.eu),
+    y miembro del [Comité de Ética e Investigación en Seres Humanos](https://www.ehu.eus/es/web/ikerketa/etika-batzordea). "
+
+# ── Líneas de investigación ────────────────────────────
+research_lines:
+  - eu: "**Programa-ebaluazioa** politika publikoen inpaktu kausala"
+    en: "**Program Evaluation** causal inference, impact evaluation"
+    es: "**Evaluación de programas** identificación causal del efecto de políticas públicas"
+
+  - eu: "**Eskola-aukera eta Hezkuntza-Ekonomia** gurasoen lehentasunak, irakaskuntza-hizkuntza eta hezkuntza-sistema Euskadin eta Espainian"
+    en: "**School Choice & Education Economics** parental preferences, language of instruction, comparative studies across the Basque Country and Spain"
+    es: "**Elección de centro escolar y Economía de la Educación** preferencias parentales, lengua de instrucción, estudios comparativos en el País Vasco y España"
+
+  - eu: "**Discrete Choice Experiments** ingurumen-balorazioa, klima-aldaketarako egokitzapena"
+    en: "**Discrete Choice Experiments** environmental and non-market valuation, climate change adaptation"
+    es: "**Experimentos de Elección Discreta (DCE)** valoración ambiental y de bienes no de mercado, adaptación al cambio climático"
+
+  - eu: "**Lan-merkatua** enplegu aktiboko politiken ebaluazioa, inklusio eta desberdintasunaren ikuspuntutik"
+    en: "**Labor Economics** active employment policy evaluation, youth labor markets"
+    es: "**Economía Laboral** evaluación de PAEs desde el punto de visata de la inclusión y la desigualdad"
+
+# ── Publicaciones ──────────────────────────────────────
+# badge: "book" | "rpkg" | "" (vacío = sin badge)
+# translation_es / translation_eu: traducción del título (dejar vacío si no aplica)
+publications:
+  - title: "Environmental Valuation with Discrete Choice Experiments in R"
+    badge: "book"
+    translation_eu: "(Ingurumen-balorazioa R-ko elekzio-esperimentu diskretuekin)"
+    translation_es: "(Valoración ambiental con experimentos de elección discreta en R)"
+    authors: "Mariel, P., Campbell, D., Sandorf, E.D., Meyerhoff, J., **Vega-Bayo, A.**, & Blevins, R."
+    year: 2025
+    journal: "Springer Nature, Vol. 17"
+    doi: "https://doi.org/10.1007/978-3-031-76936-9"
+
+  - title: "Parents' Willingness to Pay for Bilingualism: Evidence from Spain"
+    badge: ""
+    translation_eu: "(Gurasoen ordaintzeko borondatea elebitasunarentzat: Espainiako frogak)"
+    translation_es: "(La disposición a pagar de los padres por el bilingüismo: evidencia de España)"
+    authors: "**Vega-Bayo, A.** & Mariel, P."
+    year: 2023
+    journal: "Journal of Family and Economic Issues, 44(3), 727–742"
+    doi: "https://doi.org/10.1007/s10834-022-09852-1"
+
+  - title: "Climate Change Adaptation Preferences of Winemakers from the Rioja Wine Appellation"
+    badge: ""
+    translation_eu: "(Errioxako bodegueros-en klima-aldaketarako egokitzapen-lehentasunak)"
+    translation_es: "(Preferencias de adaptación al cambio climático de los bodegueros de la DOCa Rioja)"
+    authors: "**Vega-Bayo, A.**, Mariel, P., Meyerhoff, J., Corsi, A.M., & Chovan, M."
+    year: 2023
+    journal: "Journal of Choice Modelling, 48, 100434"
+    doi: "https://doi.org/10.1016/j.jocm.2023.100434"
+
+  - title: "Comparing Teacher and External Assessments: Are Boys, Immigrants, and Poorer Students Undergraded?"
+    badge: ""
+    translation_eu: "(Irakasleen eta kanpo-ebaluazioen arteko konparaketa: gutxietsita al daude mutilak, etorkinak eta ikasle txiroagoak?)"
+    translation_es: "(¿Están infravalorados niños, inmigrantes y alumnos más pobres en la evaluación docente frente a la externa?)"
+    authors: "Gortazar, L., de la Fuente, D.M., & **Vega-Bayo, A.**"
+    year: 2022
+    journal: "Teaching and Teacher Education, 115, 103725"
+    doi: "https://doi.org/10.1016/j.tate.2022.103725"
+
+  - title: "The Effect of the Free High School Tuition Law on Upper-Secondary School Choice in Japan"
+    badge: ""
+    translation_eu: "(Japoniar bigarren hezkuntzako doakotasun-legearen eragina eskola-aukeran)"
+    translation_es: "(El efecto de la ley de gratuidad de la enseñanza secundaria sobre la elección de centro en Japón)"
+    authors: "Mariel, P., Sanko, N., & **Vega-Bayo, A.**"
+    year: 2021
+    journal: "Studies in Educational Evaluation, 70, 101065"
+    doi: "https://doi.org/10.1016/j.stueduc.2021.101065"
+
+  - title: "Joint Parental School Choice: Exploring the Influence of Individual Preferences of Husbands and Wives"
+    badge: ""
+    translation_eu: "(Gurasoen eskola-aukeraketa bateratua: senar-emazteen banakako lehentasunen azterketa)"
+    translation_es: "(Elección conjunta de centro escolar: preferencias individuales de padres y madres)"
+    authors: "Mariel, P., Scarpa, R., & **Vega-Bayo, A.**"
+    year: 2018
+    journal: "Regional Science and Urban Economics, 68, 23–35"
+    doi: "https://doi.org/10.1016/j.regsciurbeco.2017.10.017"
+
+  - title: "An Empirical Comparison Between the Synthetic Control Method and Hsiao et al.'s Panel Data Approach to Program Evaluation"
+    badge: ""
+    translation_eu: "(Programa-ebaluaziorako synthetic control eta panel data metodoen konparaketa enpiriko)"
+    translation_es: "(Comparación empírica entre el método del control sintético y el enfoque de datos de panel de Hsiao et al.)"
+    authors: "Gardeazabal, J. & **Vega-Bayo, A.**"
+    year: 2017
+    journal: "Journal of Applied Econometrics, 32(5), 983–1002"
+    doi: "https://doi.org/10.1002/jae.2557"
+
+  - title: "pampe: An R Package for the Panel Approach Method for Program Evaluation"
+    badge: "rpkg"
+    translation_eu: "(pampe: Programa-ebaluaziorako panel metodorako R paketea)"
+    translation_es: "(pampe: paquete R para el método de panel de evaluación de programas)"
+    authors: "**Vega-Bayo, A.**"
+    year: 2015
+    journal: "The R Journal, 7(2), 105–121"
+    doi: "https://doi.org/10.32614/RJ-2015-024"
+
+# ── Proyectos de investigación ─────────────────────────
+research_projects:
+  - years: "2024–2028"
+    title:
+      eu: "Ingurumen-balorazioan DCE metodologia aurreratuak"
+      en: "Methodological advances in DCE for environmental valuation"
+      es: "Avances metodológicos en DCE aplicados a valoración ambiental"
+    subtitle: "Ministerio de Ciencia PID2023-147981OB-I00"
+
+#  - years: "2023–2026"
+#    title:
+#      eu: "Energia-prezioak: merkatuak, erregulazioa eta gizartea"
+#      en: "Energy market prices: markets, regulation and society"
+#      es: "Precios de la energía: mercados, regulación y sociedad"
+#    subtitle: "Ministerio de Ciencia PID2022-139458NB-I00 · €104,250"
+
+  - years: "2018–2022"
+    title:
+      eu: "Youth Employment PartnerSHIP"
+      en: "Youth Employment PartnerSHIP"
+      es: "Youth Employment PartnerSHIP"
+    badge: "ip"
+    badge_label:
+      eu: "IP Espainia"
+      en: "Spanish PI"
+      es: "IP España"
+    subtitle: "EEA Grants"
+    desc:
+      eu: "Gazteen enplegu-politiken ebaluazioa Espainian, Hungarian, Italian eta Polonian. RCT metodologia Euskal Herrian."
+      en: "Evaluation of youth employment policies in Spain, Hungary, Italy and Poland. Includes RCT in the Basque Country."
+      es: "Evaluación de políticas de empleo juvenil en España, Hungría, Italia y Polonia. Incluye RCT en el País Vasco."
+
+# ── Transferencia: Informes ────────────────────────────
+kt_reports:
+  - years: "2023, 2025"
+    title:
+      eu: "Hezkuntza-desberdintasuna"
+      en: "Education inequality"
+      es: "Desigualdad educativa"
+    badge: "ip"
+    badge_label:
+      eu: "IP"
+      en: "PI"
+      es: "IP"
+    subtitle:
+      eu: "ISEAK Fundazioa eta COTEC"
+      en: "ISEAK Foundation and COTEC"
+      es: "Fundación ISEAK y COTEC"
+    desc:
+      eu: "[«Meritocracia y educación: movilidad social y desigualdad de oportunidades»](https://cotec.es/proyectos-cpt/meritocracia-y-educacion/).\n2025ean eguneratuta eskuragarri zeuden azken datuekin."
+      en: "[«Meritocracy and education: social mobility and inequality of opportunities»](https://cotec.es/proyectos-cpt/meritocracia-y-educacion/).\nUpdated in 2025 with the latest available data."
+      es: "[«Meritocracia y Educación: movilidad social y desigualdad de oportunidades»](https://cotec.es/proyectos-cpt/meritocracia-y-educacion/).\nActualizado en 2025 con los últimos datos disponibles."
+
+  - years: "2021"
+    title:
+      eu: "Etorkizuneko enpleguak eta konpetentziak"
+      en: "Jobs and skills of the future"
+      es: "Empleos y competencias del futuro"
+    badge: "ip"
+    badge_label:
+      eu: "IP"
+      en: "PI"
+      es: "IP"
+    subtitle:
+      eu: "ISEAK Fundazioa eta COTEC"
+      en: "ISEAK Foundation and COTEC"
+      es: "Fundación ISEAK y COTEC"
+    desc:
+      eu: "[«Empleos y competencias del futuro»](https://cotec.es/proyectos-cpt/empleos-y-competencias-del-futuro/)"
+      en: "[«Jobs and skills of the future»](https://cotec.es/proyectos-cpt/empleos-y-competencias-del-futuro/)"
+      es: "[«Empleos y competencias del futuro»](https://cotec.es/proyectos-cpt/empleos-y-competencias-del-futuro/)"
+
+  - years: "2018–2019"
+    title:
+      eu: "Euskal hezkuntza-sistemaren azterketa"
+      en: "Analysis of the Basque education system"
+      es: "Análisis del sistema educativo vasco"
+    subtitle:
+      eu: "Eusko Jaurlaritza, Hezkuntza Saila"
+      en: "Basque Government, Department of Education"
+      es: "Gobierno Vasco, Departamento de Educación"
+    desc:
+      eu: "Bi txosten: [ikasketa-emaitzak](https://iseak.eu/wp-content/uploads/2020/07/analisis-de-los-resultados-de-aprendizaje-del-sistema-educativo-vasco-2022-10-14-analisis-de-los-resultados-de-aprendizaje-del-sistema-educativo-vasco.pdf) eta [ikaskuntza-gastua](https://iseak.eu/wp-content/uploads/2020/07/analisis-del-gasto-y-servicio-publico-para-el-aprendizaje-2022-09-28-analisis-del-gasto-y-servicio-publico-para-el-aprendizaje.pdf)ren analisiak."
+      en: "Two reports: analysis of [learning outcomes](https://iseak.eu/wp-content/uploads/2020/07/analisis-de-los-resultados-de-aprendizaje-del-sistema-educativo-vasco-2022-10-14-analisis-de-los-resultados-de-aprendizaje-del-sistema-educativo-vasco.pdf) and [public expenditure](https://iseak.eu/wp-content/uploads/2020/07/analisis-del-gasto-y-servicio-publico-para-el-aprendizaje-2022-09-28-analisis-del-gasto-y-servicio-publico-para-el-aprendizaje.pdf) on Basque education."
+      es: "Dos informes: análisis de los [resultados de aprendizaje](https://iseak.eu/wp-content/uploads/2020/07/analisis-de-los-resultados-de-aprendizaje-del-sistema-educativo-vasco-2022-10-14-analisis-de-los-resultados-de-aprendizaje-del-sistema-educativo-vasco.pdf) y [gasto público educativo](https://iseak.eu/wp-content/uploads/2020/07/analisis-del-gasto-y-servicio-publico-para-el-aprendizaje-2022-09-28-analisis-del-gasto-y-servicio-publico-para-el-aprendizaje.pdf) vasco."
+
+  - years: "2018, 2019"
+    title:
+      eu: "DFBko enplegu-dekretuen ebaluazioa"
+      en: "Evaluation of DFB employability decrees"
+      es: "Evaluación de los decretos de empleabilidad de la DFB"
+    subtitle:
+      eu: "Bizkaiko Foru Aldundia"
+      en: "Diputación Foral de Bizkaia"
+      es: "Diputación Foral de Bizkaia"
+    desc:
+      eu: "DFBko enplegu politika aktiboen inpaktu ebaluazioa, 2018 eta 2019."
+      en: "Impact evaluation of active employment policies of the DFB, 2018 and 2019."
+      es: "Evaluación de impacto de políticas activas de empleo de la DFB, 2018 y 2019."
+
+
+# ── Transferencia: Data Labs ───────────────────────────
+kt_datalabs:
+  - years: "2019, 2021, 2023"
+    title:
+      eu: "Lan merkatuko data behatokiak"
+      en: "Labor market data labs"
+      es: "Observatorios del mercado laboral"
+    subtitle:
+      eu: "ISEAK Fundazioa · R Shiny"
+      en: "ISEAK Foundation · R Shiny"
+      es: "Fundación ISEAK · R Shiny"
+    desc:
+      eu: "[Euskadiko Lan Laborategia](https://iseak.shinyapps.io/iseaklab_empleo/). [Bizkaia](https://iseak.eu/proyectos/mapa-demografia-laboral-de-bizkaia) eta [Gipuzkoako](https://www.gipuzkoa.eus/eu/web/ekonomia/lan-behategia) lan-merkatuen behatokiak. Diseinua eta programazioa."
+      en: "[Euskadi Labor DataLab](https://iseak.shinyapps.io/iseaklab_empleo/). Labor market observatories for [Bizkaia](https://iseak.eu/proyectos/mapa-demografia-laboral-de-bizkaia) and [Gipuzkoa](https://www.gipuzkoa.eus/eu/web/ekonomia/lan-behategia). Design and programming."
+      es: "[Laboratorio Laboral de Euskadi](https://iseak.shinyapps.io/iseaklab_empleo/). Observatorios de mercado laboral de [Bizkaia](https://iseak.eu/proyectos/mapa-demografia-laboral-de-bizkaia) y [Gipuzkoa](https://www.gipuzkoa.eus/eu/web/ekonomia/lan-behategia). Diseño y programación."
+
+  - years: "2020, 2022"
+    title:
+      eu: "Pobrezia eta desberdinkeria data behatokiak"
+      en: "Poverty and inequality data labs"
+      es: "Observatorios de pobreza y desigualdad regional y nacional"
+    subtitle:
+      eu: "ISEAK Fundazioa · R Shiny"
+      en: "ISEAK Foundation · R Shiny"
+      es: "Fundación ISEAK · R Shiny"
+    desc:
+      eu: "[Espainia](https://iseak.eu/proyectos/mapa-demografia-laboral-de-bizkaia) eta [Euskadiko](https://www.gipuzkoa.eus/eu/web/ekonomia/lan-behategia) pobrezia eta desberdinkeria behatokiak eta ISEAKLab plataforma. Diseinua eta programazioa."
+      en: "[Spanish](https://iseak.eu/proyectos/mapa-demografia-laboral-de-bizkaia) and [Basque](https://www.gipuzkoa.eus/eu/web/ekonomia/lan-behategia) poverty and inequality datalabs. Design and programming."
+      es: "Observatorios de pobreza y desigualdad de [España](https://iseak.eu/proyectos/mapa-demografia-laboral-de-bizkaia) y [Euskadi](https://www.gipuzkoa.eus/eu/web/ekonomia/lan-behategia). Diseño y programación."
+
+
+# ── Formación ────────────────────────────────────────────
+# badge: "prize" para resaltar, "" para nada
+education:
+  - years: "2015"
+    title:
+      eu: "Postdok egonaldia · University of California, Berkeley"
+      en: "Postdoctoral research stay · University of California, Berkeley"
+      es: "Estancia postdoctoral · University of California, Berkeley"
+    subtitle: "Institute for Research on Labor and Employment (IRLE)"
+
+  - years: "2014"
+    title:
+      eu: "Ekonomian Doktoretza · Cum Laude + Nazioarteko Aipamena"
+      en: "PhD in Economics · Cum Laude + International Distinction"
+      es: "Doctora en Economía · Cum Laude + Mención Internacional"
+    subtitle:
+      eu: "UPV/EHU · «Essays on Program Evaluation Methods with Applications on the Economic Costs of Conflict» · Zuz.: Javier Gardeazabal"
+      en: "UPV/EHU · «Essays on Program Evaluation Methods with Applications on the Economic Costs of Conflict» · Supervisor: Javier Gardeazabal"
+      es: "UPV/EHU · «Essays on Program Evaluation Methods with Applications on the Economic Costs of Conflict» · Dir.: Javier Gardeazabal"
+
+  - years: "2013"
+    title:
+      eu: "Doktoratu aurreko egonaldia · Harvard University"
+      en: "Predoctoral research stay · Harvard University"
+      es: "Estancia predoctoral · Harvard University"
+    subtitle: "Institute for Quantitative Social Science (IQSS)"
+
+  - years: "2011"
+    title:
+      eu: "Premio Innovación Tecnalia"
+      en: "Tecnalia Innovation Prize"
+      es: "Premio Innovación Tecnalia"
+    subtitle:
+      eu: "Masterreko Tesia Onenari"
+      en: "Best Master's Thesis"
+      es: "Mejor Tesis de Máster"
+
+  - years: "2010"
+    title:
+      eu: "Ekonomian Lizentziatura. Ekonomia kuantitatiboa (Ekonometria + Estatistika)."
+      en: "Bachelor's in Economics. Quantitative Economics (Econometrics + Statistics)."
+      es: "Licenciatura en Economía. Economía cuantitativa (Econometría + Estadística)."
+    badge: "prize"
+    badge_label:
+      eu: "SARIA"
+      en: "AWARD"
+      es: "PREMIO"
+    subtitle:
+      eu: "1. Sari Nazionala — Lizentziatura Amaierako Saria. Espainiako Gobernua"
+      en: "1st National Prize — Best Bachelor's Degree Graduate. Spanish Government"
+      es: "1º Premio Nacional Fin de Carrera. Gobierno de España"
+
+# ── Cargos ─────────────────────────────────────────────
+roles:
+  - years:
+      eu: "2025-gaur"
+      en: "2025-today"
+      es: "2025-hoy"
+    title:
+      eu: "[Master in Economics: Empirical Applications and Policies](https://www.ehu.eus/en/web/master/master-economics-policies-empirical-applications)masterraren zuzendaria"
+      en: "Director of the [Master in Economics: Empirical Applications and Policies](https://www.ehu.eus/en/web/master/master-economics-policies-empirical-applications)"
+      es: "Directora del [Master in Economics: Empirical Applications and Policies](https://www.ehu.eus/en/web/master/master-economics-policies-empirical-applications)"
+    subtitle: "UPV/EHU"
+
+  - years:
+      eu: "2025-gaur"
+      en: "2025-today"
+      es: "2025-hoy"
+    title:
+      eu: "Giza Subjektuekin Ikerketa eta Etikaren Batzordeko kidea"
+      en: "Member, Research Ethics Committee on Human Subjects"
+      es: "Miembro del Comité de Ética e Investigación en Seres Humanos"
+    subtitle: "UPV/EHU"
+
+  - years:
+      eu: "2018-gaur"
+      en: "2018-today"
+      es: "2018-hoy"
+    title:
+      eu: "ISEAK Fundazioaren ikertzaile elkartua eta sortzailea"
+      en: "Associate Researcher and co-founder, ISEAK Foundation"
+      es: "Investigadora Asociada y co-fundadora de la Fundación ISEAK"
+    subtitle:
+      eu: "Ekonomia aplikatuaren ikerketa-fundazioa, Euskal Herria"
+      en: "Applied economics research foundation, Basque Country"
+      es: "Fundación de investigación en economía aplicada, País Vasco"
+
+  - years: "2015"
+    title:
+      eu: "[La Facultad Invisible](https://lafacultadinvisible.com)-ren sortzaile-kidea"
+      en: "Co-founder, [La Facultad Invisible](https://lafacultadinvisible.com)"
+      es: "Co-fundadora de [La Facultad Invisible](https://lafacultadinvisible.com)"
+    subtitle:
+      eu: "Unibertsitate publiko espainiarraren hobekuntzan aritzen den irabazi-asmorik gabeko elkartea"
+      en: "Non-profit association for reform of Spanish public universities"
+      es: "Asociación sin ánimo de lucro para la mejora de la universidad pública española"

@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ainhoa Vega Bayo"
+  favicon: "assets/favicon.ico"
+  page-navigation: false
+  navbar: false
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 1200px

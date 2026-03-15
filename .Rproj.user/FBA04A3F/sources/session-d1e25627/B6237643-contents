@@ -1,0 +1,123 @@
+---
+title: ""
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    title-block-banner: false
+    include-in-header:
+      text: |
+        <meta name="description" content="Ainhoa Vega-Bayo — Profesora Agregada de Economía, UPV/EHU">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+        <link rel="apple-touch-icon" href="assets/favicon-48.png">
+---
+
+```{r setup, include=FALSE}
+source("R/cv_helpers.R")
+cv <- load_cv("_cv_data.yml")
+```
+
+```{=html}
+<nav class="lang-bar">
+  <span class="site-name">ainhoa vega-bayo · curriculum vitae</span>
+  <div class="lang-btns">
+    <button class="lang-btn active" onclick="setLang('eu')" id="btn-eu">EU</button>
+    <button class="lang-btn"        onclick="setLang('en')" id="btn-en">EN</button>
+    <button class="lang-btn"        onclick="setLang('es')" id="btn-es">ES</button>
+  </div>
+</nav>
+
+<div class="page-wrap">
+<aside class="sidebar">
+```
+
+```{r sidebar-dynamic}
+#| echo: false
+render_sidebar_dynamic(cv)
+```
+
+```{=html}
+<hr class="sidebar-divider">
+<div class="sidebar-section">
+  <span class="sidebar-label lang-block active" id="sl-int-eu">Ikerketa arloak</span>
+  <span class="sidebar-label lang-block"        id="sl-int-en">Research areas</span>
+  <span class="sidebar-label lang-block"        id="sl-int-es">Áreas de investigación</span>
+  <div class="tag-list">
+    <span class="tag">Program Evaluation</span>
+    <span class="tag">Discrete Choice</span>
+    <span class="tag">School Choice</span>
+    <span class="tag">Labour Economics</span>
+    <span class="tag">Gender &amp; Inequality</span>
+    <span class="tag">R / Econometrics</span>
+    <span class="tag">Education Policy</span>
+  </div>
+</div>
+<hr class="sidebar-divider">
+<div class="sidebar-section">
+  <span class="sidebar-label">Hizkuntzak / Languages</span>
+  <div class="skill-item" style="margin-bottom:0.25rem">Euskara <span class="skill-dots">●●●●●</span></div>
+  <div class="skill-item" style="margin-bottom:0.25rem">Español <span class="skill-dots">●●●●●</span></div>
+  <div class="skill-item" style="margin-bottom:0.25rem">English <span class="skill-dots">●●●●●</span></div>
+  <div class="skill-item">Français <span class="skill-dots">●●○○○</span></div>
+</div>
+<hr class="sidebar-divider">
+<div class="sidebar-section">
+  <span class="sidebar-label">Software</span>
+  <div class="tag-list">
+    <span class="tag">R</span><span class="tag">Quarto</span><span class="tag">Shiny</span>
+    <span class="tag">Stata</span><span class="tag">Python</span><span class="tag">QGIS</span>
+  </div>
+</div>
+
+</aside>
+
+<main class="main-content">
+```
+
+```{r block-eu}
+#| echo: false
+render_lang_block(cv, "eu", active = TRUE)
+```
+
+```{r block-en}
+#| echo: false
+render_lang_block(cv, "en")
+```
+
+```{r block-es}
+#| echo: false
+render_lang_block(cv, "es")
+```
+
+```{=html}
+<footer class="site-footer">
+  <span>© 2025 Ainhoa Vega-Bayo · UPV/EHU</span>
+  <span>Built with Quarto &amp; R · GitHub Pages</span>
+</footer>
+</main>
+</div>
+
+<script>
+const LANGS = ['eu', 'en', 'es'];
+function setLang(lang) {
+  LANGS.forEach(l => {
+    document.getElementById('block-' + l)?.classList.toggle('active', l === lang);
+    document.getElementById('sidebar-' + l)?.classList.toggle('active', l === lang);
+    document.getElementById('sl-int-' + l)?.classList.toggle('active', l === lang);
+    document.getElementById('btn-' + l)?.classList.toggle('active', l === lang);
+  });
+  localStorage.setItem('cv-lang', lang);
+}
+(function() {
+  const saved = localStorage.getItem('cv-lang');
+  if (saved && LANGS.includes(saved)) { setLang(saved); return; }
+  const nav = (navigator.language || '').toLowerCase();
+  if (nav.startsWith('eu')) setLang('eu');
+  else if (nav.startsWith('es')) setLang('es');
+  else setLang('eu');
+})();
+</script>
+```
