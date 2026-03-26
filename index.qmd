@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Ainhoa Vega-Bayo — Associate Professor of Economics, UPV/EHU"
 format:
   html:
     theme: none
@@ -8,25 +8,75 @@ format:
     title-block-banner: false
     include-in-header:
       text: |
-        <meta name="description" content="Ainhoa Vega-Bayo — Profesora Agregada de Economía, UPV/EHU">
+        <!-- Primary meta -->
+        <meta name="description" content="Ainhoa Vega-Bayo is Associate Professor of Economics at UPV/EHU. Research in program evaluation, discrete choice experiments, school choice, and labour economics.">
+        <meta name="keywords" content="Ainhoa Vega-Bayo, economics, UPV EHU, program evaluation, discrete choice, econometrics, ISEAK, labour economics, school choice">
+        <meta name="author" content="Ainhoa Vega-Bayo">
+        <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://ainhoavega.github.io/ainhoa-vega-bayo-cv-academia/">
+
+        <!-- Open Graph (Facebook, LinkedIn) -->
+        <meta property="og:type" content="profile">
+        <meta property="og:title" content="Ainhoa Vega-Bayo — Associate Professor of Economics">
+        <meta property="og:description" content="Academic CV of Ainhoa Vega-Bayo, Associate Professor of Economics at UPV/EHU. Research in program evaluation, discrete choice, and labour economics.">
+        <meta property="og:url" content="https://ainhoavega.github.io/ainhoa-vega-bayo-cv-academia/">
+        <meta property="og:locale" content="en_GB">
+        <meta property="profile:first_name" content="Ainhoa">
+        <meta property="profile:last_name" content="Vega-Bayo">
+
+        <!-- Twitter card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Ainhoa Vega-Bayo — Associate Professor of Economics, UPV/EHU">
+        <meta name="twitter:description" content="Academic CV: program evaluation, discrete choice experiments, school choice, labour economics.">
+
+        <!-- JSON-LD structured data -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Ainhoa Vega-Bayo",
+          "jobTitle": "Associate Professor of Economics",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of the Basque Country (UPV/EHU)",
+            "url": "https://www.ehu.eus"
+          },
+          "url": "https://ainhoavega.github.io/ainhoa-vega-bayo-cv-academia/",
+          "email": "ainhoa.vega@ehu.eus",
+          "sameAs": [
+            "https://iseak.eu",
+            "https://orcid.org"
+          ],
+          "knowsAbout": [
+            "Program Evaluation",
+            "Discrete Choice Experiments",
+            "School Choice",
+            "Labour Economics",
+            "Econometrics",
+            "Education Economics"
+          ]
+        }
+        </script>
+
+        <!-- Favicons -->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
         <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
         <link rel="apple-touch-icon" href="assets/favicon-48.png">
-        
 ---
 
 ```{r setup, include=FALSE}
-source("R/cv_helpers.R")
-cv <- load_cv("_cv_data.yml")
+library(here)
+source(here("R/cv_helpers.R"))
+cv <- load_cv(here("_cv_data.yml"))
 ```
 
 ```{=html}
 <nav class="lang-bar">
-  <span class="site-name">Ainhoa Vega-Bayo · Curriculum Vitae</span>
+  <span class="site-name">ainhoa vega-bayo · curriculum vitae</span>
   <div class="lang-btns">
-    <button class="lang-btn active" onclick="setLang('en')" id="btn-en">EN</button>
-    <button class="lang-btn"        onclick="setLang('eu')" id="btn-eu">EU</button>
+    <button class="lang-btn active" onclick="setLang('eu')" id="btn-eu">EU</button>
+    <button class="lang-btn"        onclick="setLang('en')" id="btn-en">EN</button>
     <button class="lang-btn"        onclick="setLang('es')" id="btn-es">ES</button>
   </div>
 </nav>
@@ -69,7 +119,7 @@ render_sidebar_dynamic(cv)
   <span class="sidebar-label">Software</span>
   <div class="tag-list">
     <span class="tag">R</span><span class="tag">Quarto</span><span class="tag">Shiny</span>
-    <span class="tag">Plotly</span><span class="tag">QGIS</span>
+    <span class="tag">Stata</span><span class="tag">Python</span><span class="tag">QGIS</span>
   </div>
 </div>
 
@@ -95,7 +145,7 @@ render_lang_block(cv, "es")
 
 ```{=html}
 <footer class="site-footer">
-  <span>© 2026 Ainhoa Vega-Bayo · UPV/EHU</span>
+  <span>© 2025 Ainhoa Vega-Bayo · UPV/EHU</span>
   <span>Built with Quarto &amp; R · GitHub Pages</span>
 </footer>
 </main>
@@ -118,7 +168,7 @@ function setLang(lang) {
   const nav = (navigator.language || '').toLowerCase();
   if (nav.startsWith('eu')) setLang('eu');
   else if (nav.startsWith('es')) setLang('es');
-  else setLang('eu');
+  else setLang('en');
 })();
 </script>
 ```
