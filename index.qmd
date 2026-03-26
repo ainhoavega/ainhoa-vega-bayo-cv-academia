@@ -9,6 +9,7 @@ format:
     include-in-header:
       text: |
         <!-- Primary meta -->
+        <meta name="google-site-verification" content="bh2_JT1gZmBezYzbtyhQCErC87ojjYpmk7lUl0TxRY0" />
         <meta name="description" content="Ainhoa Vega-Bayo is Associate Professor of Economics at UPV/EHU. Research in program evaluation, discrete choice experiments, school choice, and labour economics.">
         <meta name="keywords" content="Ainhoa Vega-Bayo, economics, UPV EHU, program evaluation, discrete choice, econometrics, ISEAK, labour economics, school choice">
         <meta name="author" content="Ainhoa Vega-Bayo">
