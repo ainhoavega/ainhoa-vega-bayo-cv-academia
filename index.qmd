@@ -145,7 +145,7 @@ render_lang_block(cv, "es")
 
 ```{=html}
 <footer class="site-footer">
-  <span>© 2025 Ainhoa Vega-Bayo · UPV/EHU</span>
+  <span>© 2026 Ainhoa Vega-Bayo · UPV/EHU</span>
   <span>Built with Quarto &amp; R · GitHub Pages</span>
 </footer>
 </main>
